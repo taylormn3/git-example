@@ -7,7 +7,11 @@ def main():
 
 def new_func():
     print('This is a new func')
-    print("another print")
+    print("changed this print")
+    another_func()
+
+def another_func():
+    print("YAY")
 
 def helper():
     new_func()
