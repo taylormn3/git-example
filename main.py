@@ -5,8 +5,13 @@ def main():
     result = helper()
     print(result)
 
+def new_func():
+    print('This is a new func')
+
 def helper():
-    return 1 + 3
+    new_func()
+    return 1 + 10
+
 
 if __name__ == "__main__":
     main()
